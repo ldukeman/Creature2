@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
+
+.wrapper {
+  margin: 5px;
+}
+
+.face {
+  width: 75px;
+  height: 120px;
+  border: solid 3px blue;
+  background-color: orange;
+  border-radius: 62px;
+}
+
+.eye {
+  width: 6px;
+  height: 6px;
+  border: solid 1px green;
+  border-radius: 3px;
+  z-index: 1;
+  position: relative;
+  background-color: black;
+}
+
+.left {
+  left: 20px;
+  top: 26px;
+}
+
+.right {
+  left: 45px;
+  top: 18px;
+}
+
+.mouth {
+  width: 30px;
+  height: 10px;
+  border: solid 1pz green;
+  border-radius: 0 0 20px 20px;
+  margin: 15px;
+  position: relative;
+  top: 2em;
+  left:.35em;
+  background-color: red;
+}
+
+.stripe {
+  width: 70px;
+  height: 20px;
+  border: solid 3px blue;
+  top: 2em;
+  left: .3em;
+  background-color: blue;
+}
+
+.seat {
+  width: 70px;
+  height: 10px;
+  border: solid 1pz green;
+  margin: 15px;
+  position: relative;
+  top: 1.63em;
+  right: .7em;
+  background-color: purple;
+}
